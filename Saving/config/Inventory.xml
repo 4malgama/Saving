@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inventory>
+	<item code="magic_stick" name="Magic stick" type="weapon">
+		<properties>
+			<property name="damage" value="3.5"/>
+			<property name="accuracy" value="70"/>
+			<property name="magic_decrease_per_hit" value="10"/>
+		</properties>
+	</item>
+	<item code="wooden_sword" name="Wooden sword" type="weapon">
+		<properties>
+			<property name="damage" value="2.7"/>
+			<property name="accuracy" value="55"/>
+			<property name="stamina_decrease_per_hit" value="20"/>
+		</properties>
+	</item>
+</inventory>
