@@ -131,7 +131,35 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="inventory\Armor.cpp" />
+    <ClCompile Include="inventory\InventoryItem.cpp" />
+    <ClCompile Include="inventory\InventoryResourceManager.cpp" />
+    <ClCompile Include="inventory\Weapon.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="player\Player.cpp" />
+    <ClCompile Include="properties\PropertyValue.cpp" />
+    <ClCompile Include="save_models\DataSaveModel.cpp" />
+    <ClCompile Include="save_models\PlayerSaveModel.cpp" />
+    <ClCompile Include="security\Obfuscator.cpp" />
+    <ClCompile Include="services\PlayerSavingService.cpp" />
+    <ClCompile Include="services\SavingFactory.cpp" />
+    <ClCompile Include="utils\Variant.cpp" />
+    <ClCompile Include="_main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inventory\Armor.h" />
+    <ClInclude Include="inventory\InventoryItem.h" />
+    <ClInclude Include="inventory\InventoryResourceManager.h" />
+    <ClInclude Include="inventory\Weapon.h" />
+    <ClInclude Include="player\Player.h" />
+    <ClInclude Include="properties\PropertyValue.h" />
+    <ClInclude Include="save_models\DataSaveModel.h" />
+    <ClInclude Include="save_models\PlayerSaveModel.h" />
+    <ClInclude Include="security\Obfuscator.h" />
+    <ClInclude Include="services\ISavingService.h" />
+    <ClInclude Include="services\PlayerSavingService.h" />
+    <ClInclude Include="services\SavingFactory.h" />
+    <ClInclude Include="utils\Variant.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
