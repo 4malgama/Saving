@@ -30,3 +30,14 @@
 *.exe
 *.out
 *.app
+/.vs/Saving/FileContentIndex
+/.vs/Saving/v17/ipch/AutoPCH
+/.vs/Saving/v17
+/Debug
+/Packer/Debug/Packer.tlog
+/Packer/Debug
+/Saving/Debug/Saving.tlog
+/Saving/Debug
+/Saving/x64/Debug/Saving.tlog
+/Saving/x64/Debug
+/x64/Debug
