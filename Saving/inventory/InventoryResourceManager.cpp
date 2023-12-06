@@ -1,11 +1,15 @@
 #include "InventoryResourceManager.h"
 
-InventoryResourceManagerPtr InventoryResourceManager::instance = InventoryResourceManagerPtr();
+InventoryResourceManagerPtr InventoryResourceManager::instance = nullptr;
+
+InventoryResourceManager::InventoryResourceManager()
+{
+}
 
 InventoryResourceManagerPtr InventoryResourceManager::getInstance()
 {
-	if (InventoryResourceManager::instance.get() == nullptr)
-		InventoryResourceManager::instance = std::make_shared<InventoryResourceManager>();
+	if (instance == nullptr)
+		instance = std::shared_ptr<InventoryResourceManager>(new InventoryResourceManager());
 	return instance;
 }
 
